@@ -82,7 +82,7 @@ public class MyPanelClass extends JPanel {
                         flagTriangle.addPoint(x1 + 10, y1 + 10);
                         flagTriangle.addPoint(x1 + 10, y1 + 150);
                         flagTriangle.addPoint(x1 + 117, y1 + 80);
-                        g.setColor(Color.cyan);
+                        g.setColor(Color.BLUE);
                         g.fillPolygon(flagTriangle);
                         
                         Polygon p2 = new Polygon();
